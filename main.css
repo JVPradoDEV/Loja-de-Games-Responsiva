@@ -1,0 +1,177 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+}
+
+section .container {
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+header {
+    margin: 0px auto;
+    color: #fff;
+    padding: 24px;
+    background-color: #14aaeb;
+    box-shadow: 2px 1px 4px #95c2d5;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 12px;
+    list-style: none;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header li a:hover {
+    border-top: 1px solid #fff;
+    font-weight: bolder;
+}
+
+.sobre-texto {
+    padding: 32px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #14aaeb;
+}
+
+.sobre-texto p {
+    font-size: 0.9em;
+    margin-top: 28px;
+}
+
+.sobre-texto hr {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);
+}
+
+#sobre img {
+    max-width: 40vw;
+    box-shadow: 1px 3px 3px 1px #95c2d5;
+}
+
+#produtos .container {
+    display: block;
+}
+
+#produtos img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#produtos hr {
+    margin-bottom: 3em;
+}
+
+.produtos-lista li {
+    list-style: none;
+    max-width: 30%;
+    padding: 16px;
+}
+
+.produtos-lista {
+    font-size: 0.8em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.produtos-lista p {
+    font-size: 1.3em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.produtos-lista button {
+    border: none;
+    color: #fff;
+    background-color: #14aaeb;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.produtos-lista button:hover {
+    background-color: #048ac4;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.produtos-lista h3 {
+    font-weight: 400;
+}
+
+
+.container-flex {
+    display: flex;
+}
+
+@media screen and (max-width: 540px) {
+
+    header .container,
+    section .container {
+        display: block;
+    }
+
+    #sobre img {
+        max-width: 100%;
+    }
+
+
+    header {
+        max-width: 100%;
+    }
+
+    #produtos {
+        display: block;
+    }
+
+    #produtos ul {
+        display: block;
+    }
+
+    .produtos-lista {
+        max-width: 100%;
+    }
+
+    #produtos li {
+        margin-bottom: 90px;
+        max-width: 100%;
+    }
+}

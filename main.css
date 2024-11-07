@@ -88,6 +88,10 @@ h2 {
     display: block;
 }
 
+#produtos {
+    margin-bottom: 30px;
+}
+
 #produtos img {
     max-width: 200px;
     max-height: 200px;
@@ -140,6 +144,14 @@ h2 {
 
 .container-flex {
     display: flex;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    color: #fff;
+    background-color: #14aaeb;
 }
 
 @media screen and (max-width: 540px) {
